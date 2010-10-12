@@ -1,9 +1,3 @@
-(defpackage :utter-glib
-  (:use :cl :cffi)
-  (:export)
-  (:documentation
-   "utter-glib: The utter CL bindings for Glib"))
-
 (in-package :utter-glib)
 
 (define-foreign-library glib

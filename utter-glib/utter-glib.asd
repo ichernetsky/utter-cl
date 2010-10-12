@@ -5,5 +5,9 @@
 
 (defsystem "utter-glib"
   :description "utter-glib: The utter CL bindings for Glib"
-  :components ((:file "glib-init"))
+  :serial t
+  :components ((:file "glib-package")
+               (:file "glib-init")
+               (:file "glib-basic-types")
+               (:file "glib-version"))
   :depends-on (:cffi))

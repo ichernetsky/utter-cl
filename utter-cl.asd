@@ -5,5 +5,7 @@
 
 (defsystem "utter-cl"
   :description "utter-cl: The utter CL bindings for Clutter"
-  :components ((:file "clutter-init"))
+  :serial t
+  :components ((:file "clutter-package")
+               (:file "clutter-init"))
   :depends-on (:cffi :utter-glib))
