@@ -9,5 +9,6 @@
   :components ((:file "glib-package")
                (:file "glib-init")
                (:file "glib-basic-types")
-               (:file "glib-version"))
+               (:file "glib-version")
+               (:file "glib-threads"))
   :depends-on (:cffi))

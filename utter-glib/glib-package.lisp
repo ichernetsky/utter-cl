@@ -28,6 +28,7 @@
            :guintptr
            :*glib-major-version*
            :*glib-minor-version*
-           :*glib-micro-version*)
+           :*glib-micro-version*
+           :g-thread-init)
   (:documentation
    "utter-glib: The utter CL bindings for Glib"))

@@ -7,5 +7,7 @@
   :description "utter-cl: The utter CL bindings for Clutter"
   :serial t
   :components ((:file "clutter-package")
-               (:file "clutter-init"))
+               (:file "clutter-init")
+               (:file "clutter-threads")
+               (:file "clutter-general"))
   :depends-on (:cffi :utter-glib))
