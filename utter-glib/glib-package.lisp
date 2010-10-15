@@ -26,9 +26,13 @@
            :goffset
            :gintptr
            :guintptr
+           :*glib-required-version*
            :*glib-major-version*
            :*glib-minor-version*
            :*glib-micro-version*
+           :glib-check-version
+           :glib-version-mismatch
+           :ensure-glib-of-right-version
            :g-thread-init)
   (:documentation
    "utter-glib: The utter CL bindings for Glib"))
