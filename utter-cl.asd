@@ -10,4 +10,4 @@
                (:file "clutter-init")
                (:file "clutter-threads")
                (:file "clutter-general"))
-  :depends-on (:cffi :utter-glib))
+  :depends-on (:cffi :bordeaux-threads :utter-std :utter-glib))

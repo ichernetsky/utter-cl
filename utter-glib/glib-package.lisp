@@ -1,5 +1,5 @@
 (defpackage :utter-glib
-  (:use :cl :cffi)
+  (:use :cl :cffi :utter-std)
   (:export :gpointer
            :gchar
            :guchar
@@ -33,6 +33,7 @@
            :glib-check-version
            :glib-version-mismatch
            :ensure-glib-of-right-version
-           :g-thread-init)
+           :g-thread-init
+           :g-thread-get-initialized)
   (:documentation
    "utter-glib: The utter CL bindings for Glib"))

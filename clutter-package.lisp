@@ -1,5 +1,5 @@
 (defpackage :utter-cl
-  (:use :cl :cffi)
+  (:use :cl :cffi :utter-std :utter-glib)
   (:export :clutter-threads-init
            :clutter-threads-enter
            :clutter-threads-leave

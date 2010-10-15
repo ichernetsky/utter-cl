@@ -10,5 +10,6 @@
                (:file "glib-init")
                (:file "glib-basic-types")
                (:file "glib-version")
+               (:file "glib-event-loop")
                (:file "glib-threads"))
-  :depends-on (:cffi))
+  :depends-on (:cffi :utter-std))

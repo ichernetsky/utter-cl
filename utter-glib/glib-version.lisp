@@ -34,5 +34,4 @@
                                          *glib-micro-version*))
         (ignore () :report "Ignore version mismatch" nil)))))
 
-(eval-when (:compile-toplevel :load-toplevel :execute)
-  (ensure-glib-of-right-version))
+(ensure-glib-of-right-version)

@@ -17,7 +17,7 @@
 (defctype guint32 :uint32)
 (defctype gint64 :int64)
 (defctype guint64 :uint64)
-(defctype gboolean gint)
+(defctype gboolean :boolean)
 (defctype gfloat :float)
 (defctype gdouble :double)
 (defctype gsize :unsigned-long)
