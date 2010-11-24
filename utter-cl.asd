@@ -10,5 +10,6 @@
                (:file "clutter-init")
                (:file "clutter-threads")
                (:file "clutter-general")
-               (:file "clutter-color"))
+               (:file "clutter-color")
+               (:file "clutter-stage-manager"))
   :depends-on (:cffi :bordeaux-threads :utter-std :utter-glib))
