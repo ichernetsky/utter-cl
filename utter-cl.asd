@@ -9,5 +9,6 @@
   :components ((:file "clutter-package")
                (:file "clutter-init")
                (:file "clutter-threads")
-               (:file "clutter-general"))
+               (:file "clutter-general")
+               (:file "clutter-color"))
   :depends-on (:cffi :bordeaux-threads :utter-std :utter-glib))
