@@ -11,6 +11,23 @@
            :clutter-color-free
            :clutter-color-equal
            :clutter-color-hash
+           :clutter-stage-get-default
+           :clutter-stage-new
+           :clutter-stage-is-default
+           :clutter-stage-set-color
+           :clutter-stage-set-fullscreen
+           :clutter-stage-get-fullscreen
+           :clutter-stage-show-cursor
+           :clutter-stage-hide-cursor
+           :clutter-pick-mode
+           :clutter-stage-get-actor-at-pos
+           :clutter-stage-ensure-current
+           :clutter-stage-ensure-viewport
+           :clutter-stage-set-key-focus
+           :clutter-stage-get-key-focus
+           :clutter-stage-set-use-alpha
+           :clutter-stage-get-use-alpha
+           :clutter-stage-set-minimum-size
            :clutter-stage-manager-get-default
            :clutter-stage-manager-get-default-stage
            :clutter-stage-managet-set-default-stage)
