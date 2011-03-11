@@ -3,9 +3,15 @@
   (:export :clutter-threads-init
            :clutter-threads-enter
            :clutter-threads-leave
+           :with-clutter-threads
+           :clutter-threads-add-idle-full
            :clutter-init-error
            :clutter-init
            :clutter-main
+           :clutter-main-quit
+           :ensure-clutter-main
+           :join-clutter-main
+           :leave-clutter-main
            :clutter-color-copy
            :clutter-color-new
            :clutter-color-free

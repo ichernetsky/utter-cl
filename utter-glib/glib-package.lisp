@@ -33,6 +33,7 @@
            :glib-check-version
            :glib-version-mismatch
            :ensure-glib-of-right-version
+           :g-idle-add-full
            :g-thread-init
            :g-thread-get-initialized)
   (:documentation

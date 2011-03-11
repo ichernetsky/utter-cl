@@ -2,6 +2,6 @@
 
 (defcfun g-idle-add-full guint
   (priority gint)
-  (function :pointer)
+  (fn :pointer)
   (data gpointer)
   (notify :pointer))
